@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(201, 241, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+h2 {
+    margin-top: 1cqh;
+    color: rgb(11, 92, 124);
+    text-align: left;
+}
+
+#blogname {
+    color: rgb(197, 187, 40);
+    font-style: oblique;
+    padding-left: 0.5em;
+}
+
+#main_header {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#header_navbutton {
+    display: flex;
+}
+
+cite {
+    display: inline-block;
+}
+
+body > header {
+    background-color: rgb(11, 44, 87);
+}
+
+.nav_button {
+    list-style: none;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+}
+
+.nav_button a:visited {
+    color: antiquewhite;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+#newsletter_header {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(212, 181, 0);
+    display: flex;
+}
+
+#footer_ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer_ul > div > li > a {
+    margin-left: 10px;
+    color: navy;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#photo-grid {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "intro photo photo"
+    "intro photo photo"
+    ;
+    grid-template-columns: 1fr 2fr;
+}
+
+#photo-grid header {
+    grid-area: header;
+    padding: 10px;
+}
+
+#photo-grid p {
+    grid-area: intro;
+    padding: 10px;
+}
+
+#photo-grid img {
+    border-radius: 0%;
+    grid-area: photo;
+}
